@@ -18,7 +18,7 @@ const modalCart = () => {
 
     cartOverlay.addEventListener('click', event => {
         const target = event.target;
-        console.log(target);
+
         if (target.matches('.cart__btn-close') || target.classList.contains('cart-overlay')) {
             cartModalClose();
         }
